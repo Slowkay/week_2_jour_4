@@ -60,6 +60,7 @@ def la_boucle(handle, max)
   end
 end
 
+la_boucle(handle, long_handle(handle))
 # puts short_handle(handle)
 # puts cinq(handle)
 # only_capitals(handle)
@@ -68,6 +69,6 @@ end
 # size(handle)
 # epenser(handle)
 
-la_boucle(handle, long_handle(handle))
+
 
 
