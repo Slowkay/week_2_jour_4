@@ -44,7 +44,8 @@ end
 
 # Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)
 def long_handle(handle)
-  print "Le handle le plus long de cette liste est : "
+  puts " \n"
+  print " Le handle le plus long de cette liste est : \n \n"
   return handle.max_by {|x| x.size}.length
 end
 
@@ -53,8 +54,8 @@ def la_boucle(handle, max)
    list_size = handle.select{|handle| handle.length == i} 
    new_list_size = list_size.join(',')
     if list_size != []
-    puts "TAILLE DE #{i} CARACTERE :" 
-    puts "#{new_list_size}"
+    puts " ========== TAILLE DE #{i} CARACTERE ==========" 
+    puts "\n #{new_list_size}"
     puts " "
     end
   end
